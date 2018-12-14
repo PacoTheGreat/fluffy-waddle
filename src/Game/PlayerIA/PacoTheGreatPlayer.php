@@ -17,6 +17,8 @@ class PacoTheGreatPlayer extends Player
 
     public function getChoice()
     {
+        $DreamTeam = array('Etienneelg', 'Felixdupriez', 'GHope', 'Shiinsekai', 'Christaupher');
+        $delegues = array('Akatsuki95', 'Vegan60');
 
         // -------------------------------------    -----------------------------------------------------
         // How to get my Last Choice           ?    $this->result->getLastChoiceFor($this->mySide) -- if 0 (first round)
@@ -42,19 +44,32 @@ class PacoTheGreatPlayer extends Player
         // How can i display the result of each round ? $this->prettyDisplay()
         // -------------------------------------    -----------------------------------------------------
         //$this->prettyDisplay();
+
+        
+        $oppName = $this->result->getStatsFor($this->opponentSide)['name'];
+        if (in_array($oppName, $delegues))
+            return parent::foeChoice();
+
+        // Team Strategy to maximise score
+        if (in_array($oppName, $DreamTeam))
+            return parent::friendChoice();
+
         if ($this->result->getNbRound() == 0)
             return parent::friendChoice();
+
         if ($this->result->getLastChoiceFor($this->mySide) == 'friend') {
             // If opponent uses more foe than friend, break his neck
             if ($this->result->getStatsFor($this->opponentSide)['friend'] < $this->result->getStatsFor($this->opponentSide)['foe'])
                 return parent::foeChoice();
             return parent::friendChoice();
         }
+
         if ($this->result->getLastChoiceFor($this->mySide) == 'foe')
             // If opponent usually friendly, break my neck
             if (rand(0, 100) <= 5
             && $this->result->getStatsFor($this->opponentSide)['friend'] > $this->result->getStatsFor($this->opponentSide)['foe'])
                 return parent::friendChoice();
+
         return parent::foeChoice();
     }
  
