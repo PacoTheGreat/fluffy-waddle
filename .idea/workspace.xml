@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef4bc38d-0661-404f-b81e-c9f9a6cc2d2c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Game/PlayerIA/PacothegreatPlayer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Game/PlayerIA/PacothegreatPlayer.php" afterPath="$PROJECT_DIR$/src/Game/PlayerIA/PacothegreatPlayer.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PacothegreatPlayer.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Game/PlayerIA/PacothegreatPlayer.php">
+      <file leaf-file-name="PacoTheGreatPlayer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Game/PlayerIA/PacoTheGreatPlayer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="-255">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -31,7 +31,7 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1544809284332" expanded="true" signature="762:789" ph="..." />
+                <marker date="1544809747581" expanded="true" signature="763:790" ph="..." />
               </folding>
             </state>
           </provider>
@@ -155,12 +155,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544807491444</updated>
-      <workItem from="1544807493412" duration="1873000" />
+      <workItem from="1544807493412" duration="2286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1838000" />
+    <option name="totallyTimeSpent" value="2251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -208,12 +208,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1544809284332" expanded="true" signature="762:789" ph="..." />
+            <marker date="1544809747581" expanded="true" signature="763:790" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game/PlayerIA/PacothegreatPlayer.php">
+    <entry file="file://$PROJECT_DIR$/src/Game/PlayerIA/PacoTheGreatPlayer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="59" lean-forward="false" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
@@ -221,7 +221,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game/PlayerIA/PacothegreatPlayer.php">
+    <entry file="file://$PROJECT_DIR$/src/Game/PlayerIA/PacoTheGreatPlayer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="59" lean-forward="false" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
@@ -234,12 +234,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1544809284332" expanded="true" signature="762:789" ph="..." />
+            <marker date="1544809747581" expanded="true" signature="763:790" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game/PlayerIA/PacothegreatPlayer.php">
+    <entry file="file://$PROJECT_DIR$/src/Game/PlayerIA/PacoTheGreatPlayer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="59" lean-forward="false" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
@@ -252,7 +252,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1544809284332" expanded="true" signature="762:789" ph="..." />
+            <marker date="1544809747581" expanded="true" signature="763:790" ph="..." />
           </folding>
         </state>
       </provider>
@@ -281,15 +281,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1544809284332" expanded="true" signature="762:789" ph="..." />
+            <marker date="1544809747581" expanded="true" signature="763:790" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game/PlayerIA/PacothegreatPlayer.php">
+    <entry file="file://$PROJECT_DIR$/src/Game/PlayerIA/PacoTheGreatPlayer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="-255">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
