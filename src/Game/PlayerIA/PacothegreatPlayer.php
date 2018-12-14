@@ -17,7 +17,7 @@ class PacoTheGreatPlayer extends Player
 
     public function getChoice()
     {
-        //$this->prettyDisplay();
+        $this->prettyDisplay();
         if($this->result->getLastChoiceFor($this->opponentSide) == 'foe')
             return parent::foeChoice();
         // -------------------------------------    -----------------------------------------------------
