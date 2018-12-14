@@ -17,7 +17,8 @@ class PacoTheGreatPlayer extends Player
 
     public function getChoice()
     {
-        $DreamTeam = array('Etienneelg', 'Felixdupriez', 'GHope', 'Shiinsekai', 'Christaupher', 'Benli06', 'Galtar95');
+        $DreamTeam = array('Etienneelg', 'Felixdupriez', 'GHope', 'Shiinsekai', 'Christaupher', 'Benli06', 'Galtar95',
+            'Sky555v');
         $delegues = array('Akatsuki95', 'Vegan60');
 
         // -------------------------------------    -----------------------------------------------------
@@ -71,11 +72,9 @@ class PacoTheGreatPlayer extends Player
             return parent::friendChoice();
         }
 
+        // If opponent was a foe, break his neck
         if ($this->result->getLastChoiceFor($this->mySide) == 'foe')
-            // If opponent usually friendly, break my neck
-            if (rand(0, 100) <= 5
-            && $this->result->getStatsFor($this->opponentSide)['friend'] > $this->result->getStatsFor($this->opponentSide)['foe'])
-                return parent::friendChoice();
+            return parent::foeChoice();
 
         return parent::foeChoice();
     }
