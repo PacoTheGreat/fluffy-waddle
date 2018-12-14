@@ -17,7 +17,7 @@ class PacoTheGreatPlayer extends Player
 
     public function getChoice()
     {
-        $DreamTeam = array('Etienneelg', 'Felixdupriez', 'GHope', 'Shiinsekai', 'Christaupher');
+        $DreamTeam = array('Etienneelg', 'Felixdupriez', 'GHope', 'Shiinsekai', 'Christaupher', 'Benli06');
         $delegues = array('Akatsuki95', 'Vegan60');
 
         // -------------------------------------    -----------------------------------------------------
@@ -45,7 +45,7 @@ class PacoTheGreatPlayer extends Player
         // -------------------------------------    -----------------------------------------------------
         //$this->prettyDisplay();
 
-        
+
         $oppName = $this->result->getStatsFor($this->opponentSide)['name'];
         if (in_array($oppName, $delegues))
             return parent::foeChoice();
