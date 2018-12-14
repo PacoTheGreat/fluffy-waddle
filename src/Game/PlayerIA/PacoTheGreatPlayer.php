@@ -45,12 +45,15 @@ class PacoTheGreatPlayer extends Player
         if ($this->result->getNbRound() == 0)
             return parent::friendChoice();
         if ($this->result->getLastChoiceFor($this->mySide) == 'friend') {
-            if (rand(0, 100) <= 5)
+            // If opponent uses more foe than friend, break his neck
+            if ($this->result->getStatsFor($this->opponentSide)['friend'] < $this->result->getStatsFor($this->opponentSide)['foe'])
                 return parent::foeChoice();
             return parent::friendChoice();
         }
         if ($this->result->getLastChoiceFor($this->mySide) == 'foe')
-            if (rand(0, 100) <= 5)
+            // If opponent usually friendly, break my neck
+            if (rand(0, 100) <= 5
+            && $this->result->getStatsFor($this->opponentSide)['friend'] > $this->result->getStatsFor($this->opponentSide)['foe'])
                 return parent::friendChoice();
         return parent::foeChoice();
     }
