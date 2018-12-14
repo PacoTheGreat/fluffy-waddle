@@ -17,7 +17,7 @@ class PacoTheGreatPlayer extends Player
 
     public function getChoice()
     {
-        $DreamTeam = array('Etienneelg', 'Felixdupriez', 'GHope', 'Shiinsekai', 'Christaupher', 'Benli06');
+        $DreamTeam = array('Etienneelg', 'Felixdupriez', 'GHope', 'Shiinsekai', 'Christaupher', 'Benli06', 'Galtar95');
         $delegues = array('Akatsuki95', 'Vegan60');
 
         // -------------------------------------    -----------------------------------------------------
