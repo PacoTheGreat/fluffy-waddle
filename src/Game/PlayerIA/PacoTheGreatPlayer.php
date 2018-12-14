@@ -62,6 +62,7 @@ class PacoTheGreatPlayer extends Player
         if (in_array($oppName, $DreamTeam))
             return parent::friendChoice();
 
+        // First round always return friend
         if ($this->result->getNbRound() == 0)
             return parent::friendChoice();
 
