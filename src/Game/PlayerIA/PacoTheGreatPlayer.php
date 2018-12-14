@@ -46,6 +46,13 @@ class PacoTheGreatPlayer extends Player
         //$this->prettyDisplay();
 
 
+        /*
+         * Avant de commencer, un peu d'humour :
+         * J'ai une blague sur les magasins
+         * Mais elle a pas supermarché
+         * */
+
+
         $oppName = $this->result->getStatsFor($this->opponentSide)['name'];
         if (in_array($oppName, $delegues))
             return parent::foeChoice();
