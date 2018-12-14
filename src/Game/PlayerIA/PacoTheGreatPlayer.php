@@ -41,11 +41,17 @@ class PacoTheGreatPlayer extends Player
         // -------------------------------------    -----------------------------------------------------
         // How can i display the result of each round ? $this->prettyDisplay()
         // -------------------------------------    -----------------------------------------------------
-        /*$this->prettyDisplay();
+        //$this->prettyDisplay();
         if ($this->result->getNbRound() == 0)
             return parent::friendChoice();
-        if ($this->result->getLastChoiceFor($this->mySide) == 'friend')
-            return parent::friendChoice();*/
+        if ($this->result->getLastChoiceFor($this->mySide) == 'friend') {
+            if (rand(0, 100) <= 5)
+                return parent::foeChoice();
+            return parent::friendChoice();
+        }
+        if ($this->result->getLastChoiceFor($this->mySide) == 'foe')
+            if (rand(0, 100) <= 5)
+                return parent::friendChoice();
         return parent::foeChoice();
     }
  
